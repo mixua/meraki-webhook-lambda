@@ -5,6 +5,8 @@ purpose: Meraki Webhooks are a powerful and lightweight new way to subscribe to 
 
 ## Usage      
 
+this package uses the [serverless.com](https://serverless.com) framwork.    
+
 ```
 $ npm install -g serverless
 $ serverless install --url https://github.com/alexdebrie/meraki-webhook --name my-flask-app

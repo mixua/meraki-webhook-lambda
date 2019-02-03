@@ -27,10 +27,13 @@ endpoints:
   ANY - https://{some-subdomain}.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
 ```
 
-#### Invoke via curl:     
+#### Quick test: Invoke via curl:     
 
 ````sh
 curl --header "Content-Type: application/json" --request POST --data '{"something":"xyz","somethingelse":"xyz"}' https://{some-subdomain}.execute-api.us-east-1.amazonaws.com/dev
 ````
+
+#### Postman Examples:    
+https://documenter.getpostman.com/view/897512/RWaLwTY4 
 
 

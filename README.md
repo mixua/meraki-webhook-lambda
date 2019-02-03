@@ -1,4 +1,5 @@
-# Generic WebHook listener AWS Lambda Function    
+# WebHook listener for Cisco Meraki alerts  - AWS Lambda Function      
+[Meraki Webhooks](https://create.meraki.io/guides/webhooks/)      
 
 ## Usage      
 

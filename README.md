@@ -1,6 +1,8 @@
 # WebHook listener for Cisco Meraki alerts  - AWS Lambda Function      
 [Meraki Webhooks](https://create.meraki.io/guides/webhooks/)      
 
+purpose: Meraki Webhooks are a powerful and lightweight new way to subscribe to alerts sent from the Meraki Cloud when something happens. They include a JSON formatted message and are sent to a unique URL where they can be processed, stored or used to trigger powerful automations.
+
 ## Usage      
 
 ```

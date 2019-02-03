@@ -7,7 +7,7 @@ purpose: Meraki Webhooks are a powerful and lightweight new way to subscribe to 
 
 ## Usage      
 
-this package uses the [serverless.com](https://serverless.com) framwork.    
+this package uses the [serverless.com](https://serverless.com) framework.    
 
 ```
 $ npm install -g serverless

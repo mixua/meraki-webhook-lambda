@@ -16,10 +16,19 @@ this package uses the [serverless.com](https://serverless.com) framework.
 
 ```
 $ npm install -g serverless
-$ serverless install --url https://github.com/alexdebrie/meraki-webhook --name my-flask-app
-$ cd my-flask-app
+$ serverless install --url https://github.com/alexdebrie/meraki-webhook --name meraki-webhook
+$ cd {this project's folder}
 $ npm run setup
 <answer prompts>
+
+? What Python version?
+> python3.6
+? Do you have Docker installed? Recommended, but not required. (Y/n)
+> Y
+? Do you want to set up a custom domain? e.g. api.mycompany.com? Requires a do
+main in Route53. (y/N)
+N
+
 $ sls deploy
 ```
 

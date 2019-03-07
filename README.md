@@ -12,11 +12,13 @@ Alerts are written the the log group for the Lambda function. Further processing
 
 ## Usage      
 
-this package uses the [serverless.com](https://serverless.com) framework.    
+this package uses the [serverless.com](https://serverless.com) framework.
+Possible you will be required to install additional serverless plugins like `serverless-python-requirements`, 
+to achieve this you will need just run this command: ```sls plugin install -n serverless-python-requirements```     
 
 ```
 $ npm install -g serverless
-$ serverless install --url https://github.com/alexdebrie/meraki-webhook --name meraki-webhook
+$ serverless install --url https://github.com/verygood-ops/meraki-webhook-lambda --name meraki-webhook
 $ cd {this project's folder}
 $ npm run setup
 <answer prompts>

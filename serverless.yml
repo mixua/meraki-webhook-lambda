@@ -15,11 +15,11 @@ package:
 provider:
   name: aws
   runtime: python3.6
-  stage: dev
+  stage: production
   region: us-east-1
   environment:
     ORGANIZATION_ID: 755827
-    ROLLBAR_ACCESS_KEY: 42df826038da4044b8646ebf629a91ee
+    ROLLBAR_ACCESS_KEY: 2d7bf8afa3f2406b8e97de3e0dd4713a
 functions:
   app:
     handler: wsgi_handler.handler

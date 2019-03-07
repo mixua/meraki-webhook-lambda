@@ -13,8 +13,7 @@ rollbar.init(token, environment='external')
 def rollbar_handler(event, context):
     networkName = event['networkName']
     alertType = event['alertType']
-    print("{\"action\":\"rollbar_handler()\"}")
-    rollbar.report_message("Meraki alert from: "+networkName+" alert type: "+alertType, 'warning', request, extra_data=event)
+    rollbar.report_message(f"Meraki alert from: {networkName} alert type: {alertType}", 'warning', request, extra_data=event)
 
 @app.route('/', methods=['POST'])
 def webhook() -> object:
